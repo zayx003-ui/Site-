@@ -1,0 +1,17 @@
+{
+  "name": "BIO CAMPUS – Notes et emploi du temps",
+  "short_name": "BIO CAMPUS",
+  "description": "Notes, emploi du temps et simulateur de résultats – BUT Génie Biologique.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F6F8FB",
+  "theme_color": "#0B6E7F",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BIO CAMPUS</title>
+<meta name="description" content="Notes, emploi du temps et simulateur de résultats – BUT Génie Biologique.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F6F8FB">
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>
+// Applique le thème enregistré avant le premier affichage (évite le flash clair → sombre).
+try { var p = JSON.parse(localStorage.getItem('bc.prefs') || '{}'); if (p.theme === 'light' || p.theme === 'dark') document.documentElement.setAttribute('data-theme', p.theme); } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="app">
+  <aside class="sidebar" aria-label="Navigation principale">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="var(--accent)"/><g fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"><path d="M20 9C20 24 44 24 44 32S20 40 20 55"/><path d="M44 9C44 24 20 24 20 32S44 40 44 55"/></g><path d="M26 17h12M26 47h12" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".85"/></svg>
+      <span class="brand-name" id="brand-name">BIO CAMPUS</span>
+    </div>
+    <nav id="sidenav" class="sidenav" aria-label="Sections"></nav>
+    <p class="side-foot" id="side-foot">Moyennes provisoires, non officielles.</p>
+  </aside>
+  <div class="col">
+    <header class="topbar">
+      <div class="top-id">
+        <svg class="logo sm" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="var(--accent)"/><g fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"><path d="M20 9C20 24 44 24 44 32S20 40 20 55"/><path d="M44 9C44 24 20 24 20 32S44 40 44 55"/></g></svg>
+        <div class="top-text"><strong id="brand-top">BIO CAMPUS</strong><span id="brand-sub"></span></div>
+      </div>
+      <div class="top-actions">
+        <span class="sync-time" id="sync-time" aria-live="off"></span>
+        <button type="button" class="icon-btn" id="btn-search" aria-label="Rechercher (Ctrl K)" title="Rechercher (Ctrl K)"><svg class="ic" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 18a7 7 0 100-14 7 7 0 000 14zM21 21l-5-5"/></svg></button>
+        <button type="button" class="icon-btn" id="btn-refresh" aria-label="Actualiser les données" title="Actualiser les données"><svg class="ic" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 00-14.5-3.5M4 4v4h4M4 13a8 8 0 0014.5 3.5M20 20v-4h-4"/></svg></button>
+        <button type="button" class="icon-btn" id="btn-theme" aria-label="Changer de thème"></button>
+        <button type="button" class="icon-btn" id="btn-settings" aria-label="Paramètres" title="Paramètres"><svg class="ic" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4v6M6 14v6"/></svg></button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1" aria-live="off">
+      <div class="boot" role="status"><div class="skel tall"></div><div class="skel tall"></div></div>
+      <noscript><p class="note">Ce site a besoin de JavaScript pour afficher les notes et l’emploi du temps.</p></noscript>
+    </main>
+  </div>
+</div>
+<nav id="tabbar" class="tabbar" aria-label="Navigation mobile"></nav>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

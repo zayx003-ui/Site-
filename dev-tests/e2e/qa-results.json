@@ -1,0 +1,412 @@
+[
+ [
+  true,
+  "dashboard : 8 cartes de synthèse",
+  ""
+ ],
+ [
+  true,
+  "dashboard : salutation « Bonjour »",
+  ""
+ ],
+ [
+  true,
+  "dashboard : prochain examen R3.08",
+  ""
+ ],
+ [
+  true,
+  "dashboard : timeline avec ligne « Maintenant »",
+  ""
+ ],
+ [
+  true,
+  "dashboard : 5 dernières notes",
+  ""
+ ],
+ [
+  true,
+  "navigation : URL ?v=notes + clé conservée",
+  "http://127.0.0.1:34161/?v=notes#TESTKEY"
+ ],
+ [
+  true,
+  "navigation : retour arrière → accueil",
+  ""
+ ],
+ [
+  true,
+  "navigation : lien actif aria-current",
+  ""
+ ],
+ [
+  true,
+  "aucune requête réseau au changement de section",
+  "0"
+ ],
+ [
+  true,
+  "console sans erreur (parcours 1)",
+  ""
+ ],
+ [
+  true,
+  "planning : grille semaine, aujourd’hui surligné",
+  ""
+ ],
+ [
+  true,
+  "planning : 15 séances cette semaine dans la grille",
+  "15"
+ ],
+ [
+  true,
+  "planning : filtre CM",
+  "6/15"
+ ],
+ [
+  true,
+  "planning : compteur de résultats",
+  ""
+ ],
+ [
+  true,
+  "planning : réinitialisation des filtres",
+  ""
+ ],
+ [
+  true,
+  "planning : recherche texte",
+  ""
+ ],
+ [
+  true,
+  "planning : aucun résultat → état vide",
+  ""
+ ],
+ [
+  true,
+  "détail : modale avec rôle dialog",
+  ""
+ ],
+ [
+  true,
+  "détail : export .ics valide d’un événement",
+  "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//BIO CAMPUS//FR\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:BIO CAMPUS\r\nBEGIN:VEVENT\r\nUID:ADE6070726f6a6574756e6976323032362d323032372d373131322d302d30@bio-campu\r\n s\r\nDTST"
+ ],
+ [
+  true,
+  "détail : Échap ferme la modale",
+  ""
+ ],
+ [
+  true,
+  "détail : le focus revient sur l’événement",
+  ""
+ ],
+ [
+  true,
+  "planning : vue jour + sélecteur de jours",
+  ""
+ ],
+ [
+  true,
+  "planning : vue liste groupée par jour",
+  ""
+ ],
+ [
+  true,
+  "planning : vue mois 7 colonnes",
+  ""
+ ],
+ [
+  true,
+  "planning : mois suivant",
+  ""
+ ],
+ [
+  true,
+  "planning : retour à aujourd’hui",
+  ""
+ ],
+ [
+  true,
+  "export : fichier d’origine identique",
+  ""
+ ],
+ [
+  true,
+  "export : semaine = événements de la semaine affichée",
+  ""
+ ],
+ [
+  true,
+  "tiers temps masqué par défaut",
+  ""
+ ],
+ [
+  true,
+  "console sans erreur (planning)",
+  ""
+ ],
+ [
+  true,
+  "notes : 5 cartes UE",
+  ""
+ ],
+ [
+  true,
+  "notes : UE 3.1 = 13,53",
+  "UE 3.1\n13,53/20\nAu-dessus de la moyenne\n4/6 ressources notées · 55 % des coefficients"
+ ],
+ [
+  true,
+  "notes : UE 3.3 = 9,95",
+  ""
+ ],
+ [
+  true,
+  "notes : pas de camembert (aucun arc/donut)",
+  ""
+ ],
+ [
+  true,
+  "notes : synthèse 11 / 46",
+  ""
+ ],
+ [
+  true,
+  "notes : R3.08 détail = 4 évaluations",
+  ""
+ ],
+ [
+  true,
+  "notes : R3.08 moyenne 7,44 et promo provisoire 10,74",
+  "R3.08\nDysfonctionnements cellulaires\nUE 3.3\n3/4 notes\n7,44\n/20\nÉVALUATION\nPOIDS\nNOTE\nMEILLEURE · PIRE · PROMO\nÉpreuve théorique\n70 %\nExamen prévu le 13 novembre\n–\nTP – Inclusion\n4 nov. 2026\n6 %\n12,00\n/20\n19,60 · 0,00 · 16,29\nTP – Microtome\n4 nov. 2026\n6 %\n13,20\n/20\n20,00 · 6,80 · 14,63\nTP – Compte rendu\n4 nov. 2026\n18 %\n4,00\n/20\n17,50 · 2,00 · 7,60\nMoyenne provisoire\n7,44/20\nIl reste 70 % de la pondération à noter\nMoyenne provisoire de la promo\n10,74/20\nMeilleure 17,38 · pire 6,88\nSimuler un objectif\nAjouter une note personnelle"
+ ],
+ [
+  true,
+  "notes : meilleure/pire/promo affichées (19,60 · 0,00 · 16,29)",
+  ""
+ ],
+ [
+  true,
+  "notes : examen prévu connu dans le calendrier",
+  "R3.08\nDysfonctionnements cellulaires\nUE 3.3\n3/4 notes\n7,44\n/20\nÉVALUATION\nPOIDS\nNOTE\nMEILLEURE · PIRE · PROMO\nÉpreuve théorique\n70 %\nExamen prévu le 13 novembre\n–\nTP – Inclusion\n4 nov. 2026\n6 %\n12,00\n/20\n19,60 · 0,00 · 16,29\nTP – Microtome\n4 nov. 2026\n6 %\n13,20\n/20\n20,00 · 6,80 · 14,63\nTP – Compte rendu\n4 nov. 2026\n18 %\n4,00\n/20\n17,50 · 2,00 · 7,60\nMoyenne provisoire\n7,44/20\nIl reste 70 % de la pondération à noter\nMoyenne provisoire de la promo\n10,74/20\nMeilleure 17,38 · pire 6,88\nSimuler un objectif\nAjouter une note personnelle"
+ ],
+ [
+  true,
+  "notes : note non publiée distinguée (R3.03)",
+  ""
+ ],
+ [
+  true,
+  "notes : clic UE filtre les ressources",
+  "7 ressources sur 21"
+ ],
+ [
+  true,
+  "notes : recherche « mycologie » (R3.01 + R3.11)",
+  "2"
+ ],
+ [
+  true,
+  "notes : filtre « sans note »",
+  "14"
+ ],
+ [
+  true,
+  "notes : favori conservé après rechargement",
+  ""
+ ],
+ [
+  true,
+  "notes : graphique d’évolution (11 points datés)",
+  ""
+ ],
+ [
+  true,
+  "console sans erreur (notes)",
+  ""
+ ],
+ [
+  true,
+  "simulateur : R3.08 objectif 10 → 11,10/20",
+  "3. Résultat\nObjectif réalisable\n\nPour atteindre 10/20 en R3.08, il te faut en moyenne 11,10/20 sur 1 évaluation restante (70 % de la pondération).\n\n11,10\n/20\nMoyenne actuelle\n7,44\nPoids restant\n70 %\nMinimum possible\n2,23\nMaximum possible\n16,23\nEnregistrer comme objectif\nEt si j’obtenais…\n\nSaisis des"
+ ],
+ [
+  true,
+  "simulateur : R3.08 objectif 14 → 16,81 (difficile)",
+  "3. Résultat\nObjectif difficile\n\nPour atteindre 14/20 en R3.08, il te faut en moyenne 16,81/20 sur 1 évaluation restante (70 % de la pondération). C’est ambitieux : il faudra de très bons résultats.\n\n1"
+ ],
+ [
+  true,
+  "simulateur : R3.05 objectif 18 → impossible, max 17,40",
+  "3. Résultat\nObjectif impossible\n\nMême avec 20/20 partout sur ce qu’il reste, la moyenne maximale atteignable est de 17,40/20 : 18 n’est plus accessible.\n\nMoyenne actuelle\n7,00\nPoids restant\n80 %\nMinimum possible\n1,40\nMaximum possible\n17,40\nEnregistrer comme objectif\nEt si j’obtenais…\n\nSaisis des not"
+ ],
+ [
+  true,
+  "simulateur : objectif 25 invalide",
+  ""
+ ],
+ [
+  true,
+  "simulateur : objectif libre « 12,5 » (virgule)",
+  ""
+ ],
+ [
+  true,
+  "simulateur : texte non numérique géré",
+  ""
+ ],
+ [
+  true,
+  "simulateur : note hypothétique 16 → ≈15,78",
+  "Moyenne finale simulée\n15,78\n/20\n+0,53 vs aujourd’hui\n\nAvec ces notes, l’objectif de 12/20 serait atteint."
+ ],
+ [
+  true,
+  "simulateur : note hypothétique > 20 refusée",
+  ""
+ ],
+ [
+  true,
+  "simulateur : objectif enregistré et listé",
+  ""
+ ],
+ [
+  true,
+  "simulateur UE : résultat fiable (pas de « non fiable »)",
+  "3. Résultat\nObjectif réalisable\n\nPour atteindre 12/20 en UE 3.1, il te faut en moyenne 11,76/20 sur les évaluations restantes.\n\n11,76\n/20\nMoyenne actuelle\n13,53\nMinimum possible\n1,97\nMaximum possible\n19,02\nRESSOURCE\tCOEF.\tMOYENNE VISÉE\nR3.01 Microbiologie\t7\t12,81\n/20\n\nR3.02 Cinétique chimique et enz"
+ ],
+ [
+  true,
+  "simulateur UE 3.4 objectif 12 : note nécessaire affichée",
+  "3. Résultat\nObjectif réalisable\n\nPour atteindre 12/20 en UE 3.4, il te faut en moyenne 12,05/20 sur les évaluations restantes.\n\n12,05\n/20\nMoyenne actuelle\n11,60\nMinimum possible\n2,14\nMaximum possible\n18,51\nRESSOURCE\tCOEF.\tMOYENNE VISÉE\nR3.05 Communication\t3\t11,04\n/20\n\nR3.06 Anglais\t3\t12,05\n/20\n\nR3.0"
+ ],
+ [
+  true,
+  "console sans erreur (simulateur)",
+  ""
+ ],
+ [
+  true,
+  "stats : moyenne générale indicative 11,27 et non officielle",
+  ""
+ ],
+ [
+  true,
+  "stats : analyse en « tu »",
+  ""
+ ],
+ [
+  true,
+  "stats : comparaison promo présente",
+  ""
+ ],
+ [
+  true,
+  "stats : histogramme",
+  ""
+ ],
+ [
+  true,
+  "console sans erreur (stats)",
+  ""
+ ],
+ [
+  true,
+  "recherche : Ctrl+K ouvre la palette, focus dans le champ",
+  ""
+ ],
+ [
+  true,
+  "recherche : salle E200 trouvée",
+  "COURS\nBiochimie médicale\nJeu. 12 nov. · TD · E200\nAnglais\nVen. 20 nov. · TD · E200\nExpression scientifique\nJeu. 26 nov. · TP · E200\nAnglais\nVen. 27 nov. · TD · E200\nInformation mobilité UQAC\nMer. 2 dé"
+ ],
+ [
+  true,
+  "recherche : catégories ressources/évaluations/notes",
+  "COURS\nDysfonctionnement cellulaire\nVen. 13 nov. · Examen · Amphi 3\nRESSOURCES\nR3.08 Dysfonctionnements cellulaires\nMoyenne provisoire 7,44/20\nÉVALUATIONS\nR3.08 · Épreuve théorique\nNote non publiée\nR3.08 · TP – Inclusion\nNote 12,00/20\nR3.08 · TP – Microtome\nNote 13,20/20\nR3.08 · TP – Compte rendu\nNot"
+ ],
+ [
+  true,
+  "recherche : sans accent / casse (« enzymologie »)",
+  ""
+ ],
+ [
+  true,
+  "recherche : état vide",
+  ""
+ ],
+ [
+  true,
+  "recherche : Entrée ouvre la ressource dans Notes",
+  ""
+ ],
+ [
+  true,
+  "recherche : Échap ferme",
+  ""
+ ],
+ [
+  true,
+  "console sans erreur (recherche)",
+  ""
+ ],
+ [
+  true,
+  "paramètres : thème sombre appliqué",
+  ""
+ ],
+ [
+  true,
+  "thème sombre : fond #0B1220",
+  "rgb(11, 18, 32)"
+ ],
+ [
+  true,
+  "paramètres : thème conservé après rechargement",
+  ""
+ ],
+ [
+  true,
+  "thème clair : fond #F6F8FB",
+  ""
+ ],
+ [
+  true,
+  "paramètres : couleur d’accent",
+  ""
+ ],
+ [
+  true,
+  "accueil : prénom dans la salutation",
+  ""
+ ],
+ [
+  true,
+  "promo désactivée : plus de comparaison dans les stats",
+  ""
+ ],
+ [
+  true,
+  "promo désactivée : plus de carte promo dans les notes",
+  ""
+ ],
+ [
+  true,
+  "paramètres : réinitialisation",
+  ""
+ ],
+ [
+  true,
+  "export CSV : BOM, séparateur « ; », virgule décimale, 46 lignes",
+  48
+ ],
+ [
+  true,
+  "console sans erreur (paramètres)",
+  ""
+ ]
+]

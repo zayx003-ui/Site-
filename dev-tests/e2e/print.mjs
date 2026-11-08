@@ -1,0 +1,12 @@
+import { chromium, serve, newPage } from './lib.mjs';
+const { srv, url } = await serve();
+const browser = await chromium.launch();
+const { page, errors } = await newPage(browser);
+await page.goto(url + '/?v=settings#KEY'); await page.waitForSelector('.setrow');
+await page.evaluate(() => { window.print = () => { window.__printed = true; }; });
+await page.click('button:has-text("Imprimer")'); await page.waitForFunction(() => window.__printed);
+const info = await page.evaluate(() => ({ rows: document.querySelectorAll('#print-root tbody tr').length, cls: document.documentElement.className, h1: document.querySelector('#print-root h1')?.textContent }));
+await page.emulateMedia({ media: 'print' });
+await page.pdf({ path: '/tmp/claude-0/-home-claude/662e25d5-3ac4-5576-a819-4a8895f00044/scratchpad/qa/report.pdf', format: 'A4' });
+console.log(info, errors);
+await browser.close(); srv.close();

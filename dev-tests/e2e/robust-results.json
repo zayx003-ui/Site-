@@ -1,0 +1,252 @@
+[
+ [
+  true,
+  "sans clé : message clair + champ de saisie",
+  "Lundi 9 novembre 2026\n\nBonjour 👋\n\nTu as 4 séances aujourd’hui, il en reste 3. En cours : Biochimie métabolique.\n\nProchain cours\nBiochimie métabolique\nLun. 9 nov. · 10:15 – 11:45\nDans\nEn cours\njusqu’à"
+ ],
+ [
+  true,
+  "sans clé : le planning reste fonctionnel",
+  ""
+ ],
+ [
+  true,
+  "sans clé : pas de bouton Réessayer inutile",
+  ""
+ ],
+ [
+  true,
+  "sans clé : saisie de la clé → notes chargées",
+  ""
+ ],
+ [
+  true,
+  "sans clé : clé mémorisée (sans # ni URL)",
+  ""
+ ],
+ [
+  true,
+  "console (sans clé) : aucune erreur inattendue",
+  ""
+ ],
+ [
+  true,
+  "erreur « réseau coupé » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – connexion impossible\n\nLe site n’arrive pas à joindre le serveur. Vérifie ta connexion Internet puis réessaie.\n"
+ ],
+ [
+  true,
+  "erreur « réseau coupé » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « réseau coupé » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « HTTP 500 » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – le serveur renvoie une erreur\n\nGoogle ou GitHub rencontre un problème temporaire. Réessaie un peu plus tard.\n\n"
+ ],
+ [
+  true,
+  "erreur « HTTP 500 » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « HTTP 500 » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « HTTP 404 (non publiée) » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – feuille inaccessible\n\nLa feuille n’est pas publiée sur le web, ou la clé est incorrecte. Dans Google Sheets : "
+ ],
+ [
+  true,
+  "erreur « HTTP 404 (non publiée) » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « HTTP 404 (non publiée) » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « page HTML au lieu du CSV » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – feuille inaccessible\n\nLa feuille n’est pas publiée sur le web, ou la clé est incorrecte. Dans Google Sheets : "
+ ],
+ [
+  true,
+  "erreur « page HTML au lieu du CSV » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « page HTML au lieu du CSV » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV vide » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – format inattendu\n\nLe fichier reçu n’a pas la structure attendue. Vérifie l’onglet « Site » (Ressource, Évaluat"
+ ],
+ [
+  true,
+  "erreur « CSV vide » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV vide » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV colonnes absentes » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – format inattendu\n\nLe fichier reçu n’a pas la structure attendue. Vérifie l’onglet « Site » (Ressource, Évaluat"
+ ],
+ [
+  true,
+  "erreur « CSV colonnes absentes » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV colonnes absentes » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV sans évaluation valide » : message précis",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – données invalides\n\nAucune donnée exploitable n’a été trouvée.\n\nAucune évaluation valide n’a été trouvée dans l"
+ ],
+ [
+  true,
+  "erreur « CSV sans évaluation valide » : bouton Réessayer",
+  ""
+ ],
+ [
+  true,
+  "erreur « CSV sans évaluation valide » : accueil utilisable (planning OK)",
+  ""
+ ],
+ [
+  true,
+  "Réessayer : récupération sans recharger la page",
+  ""
+ ],
+ [
+  true,
+  "calendrier « ICS 404 » : message dédié",
+  "Emploi du temps\n\nBUT Génie Biologique · groupe C2\n\nPlanning – feuille inaccessible\n\nLa feuille n’est pas publiée sur le web, ou la clé est incorrecte. Dans Google Sheets : Fichier → Partager → Publier"
+ ],
+ [
+  true,
+  "calendrier « ICS 404 » : les notes ne sont pas affectées",
+  ""
+ ],
+ [
+  true,
+  "calendrier « ICS invalide » : message dédié",
+  "Emploi du temps\n\nBUT Génie Biologique · groupe C2\n\nPlanning – format inattendu\n\nLe fichier reçu n’a pas la structure attendue. Vérifie l’onglet « Site » (Ressource, Évaluation, Poids, Note, Meilleure,"
+ ],
+ [
+  true,
+  "calendrier « ICS invalide » : les notes ne sont pas affectées",
+  ""
+ ],
+ [
+  true,
+  "calendrier « ICS sans événement » : message dédié",
+  "Emploi du temps\n\nBUT Génie Biologique · groupe C2\n\nPlanning – données invalides\n\nAucune donnée exploitable n’a été trouvée.\n\nLe calendrier ne contient aucun événement exploitable.\n\nRéessayer\nNotes con"
+ ],
+ [
+  true,
+  "calendrier « ICS sans événement » : les notes ne sont pas affectées",
+  ""
+ ],
+ [
+  true,
+  "chargement lent : squelette affiché",
+  ""
+ ],
+ [
+  true,
+  "chargement lent : contenu affiché ensuite",
+  ""
+ ],
+ [
+  true,
+  "délai dépassé : message « trop de temps »",
+  "Notes\n\nSemestre 3 · BUT Génie Biologique\n\nNotes – le chargement prend trop de temps\n\nLe serveur n’a pas répondu à temps. Réessaie dans un instant.\n\nLe chargement de la feuille de notes a pris trop de "
+ ],
+ [
+  true,
+  "stockage bloqué : le site fonctionne",
+  ""
+ ],
+ [
+  true,
+  "stockage bloqué : thème modifiable en mémoire + avertissement",
+  ""
+ ],
+ [
+  true,
+  "stockage bloqué : aucune exception",
+  ""
+ ],
+ [
+  true,
+  "préférences corrompues : valeurs par défaut, pas de plantage",
+  ""
+ ],
+ [
+  true,
+  "CSV étrange : pas d’exécution de HTML (XSS)",
+  ""
+ ],
+ [
+  true,
+  "CSV étrange : texte affiché littéralement",
+  ""
+ ],
+ [
+  true,
+  "CSV étrange : avertissements affichés",
+  ""
+ ],
+ [
+  true,
+  "CSV étrange : 0/20 traité comme une vraie note",
+  ""
+ ],
+ [
+  true,
+  "CSV étrange : aucune erreur console",
+  ""
+ ],
+ [
+  true,
+  "PWA : service worker enregistré",
+  ""
+ ],
+ [
+  true,
+  "PWA : coque en cache",
+  "27"
+ ],
+ [
+  true,
+  "PWA : ni ICS ni données Google en cache",
+  "{\"sw\":true,\"n\":27,\"ics\":[],\"google\":[]}"
+ ],
+ [
+  true,
+  "PWA : manifeste valide (nom, icônes 192/512/maskable)",
+  ""
+ ]
+]

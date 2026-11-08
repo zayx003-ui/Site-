@@ -1,0 +1,49 @@
+Ressource,Évaluation,Poids (%),Note /20,Meilleure,Pire,Moyenne promo,Date
+R3.01 Microbiologie,Épreuve théorique Mycologie,70
+R3.01 Microbiologie,TP Mycologie,30,"15,25",17,"10,75","14,7",2026-11-02
+R3.02 Cinétique chimique et enzymatique,Épreuve théorique,70
+R3.02 Cinétique chimique et enzymatique,TP1 – Cinétique chimique,"22,5",14,19,10,"14,58",2026-10-07
+R3.02 Cinétique chimique et enzymatique,TP2 – Cinétique enzymatique,"7,5"
+R3.03 Génétique et biologie moléculaire,Épreuve théorique,70
+R3.03 Génétique et biologie moléculaire,TP,30
+R3.04 Biochimie métabolique,Épreuve théorique,100
+R3.05 Communication,Travaux 1,20,7,"17,5","4,5","12,48",2026-11-05
+R3.05 Communication,Travaux 2,30
+R3.05 Communication,Oral en anglais,50
+R3.06 Anglais,TP,100
+R3.07 Projet Personnel et Professionnel,Entretien de recrutement (carte mentale),70,9,19,6,"14,85",2026-10-07
+R3.07 Projet Personnel et Professionnel,Identité numérique,30
+R3.08 Dysfonctionnements cellulaires,Épreuve théorique,70
+R3.08 Dysfonctionnements cellulaires,TP – Inclusion,6,12,"19,6",0,"16,29",2026-11-04
+R3.08 Dysfonctionnements cellulaires,TP – Microtome,6,"13,2",20,"6,8","14,63",2026-11-04
+R3.08 Dysfonctionnements cellulaires,TP – Compte rendu,18,4,"17,5",2,"7,6",2026-11-04
+R3.08 Dysfonctionnements cellulaires,Moyenne provisoire,,,"17,38","6,88","10,74"
+R3.09 Anatomie et cytologie pathologiques,Épreuve théorique,60
+R3.09 Anatomie et cytologie pathologiques,TP,40
+R3.10 Pharmacologie,Épreuve théorique,60
+R3.10 Pharmacologie,TP Pharmacologie (intestin isolé),40,"13,7",18,0,"13,36",2026-09-28
+R3.11 Bactériologie et mycologie médicale,Épreuve théorique,70
+R3.11 Bactériologie et mycologie médicale,TP,30
+R3.12 Biochimie médicale,Épreuve théorique,70
+R3.12 Biochimie médicale,TP,30
+R3.13 Cytologie hématologique,Épreuve théorique,60
+R3.13 Cytologie hématologique,TP,40
+R3.14 Immunologie,Épreuve théorique,70
+R3.14 Immunologie,TP,30
+R3.15 Génomes et régulations,Épreuve théorique,80
+R3.15 Génomes et régulations,TP,20
+R3.16 Biochimie métabolique et enzymologie avancée,Épreuve théorique,70
+R3.16 Biochimie métabolique et enzymologie avancée,TP,30
+R3.17 Génie génétique,Épreuve théorique,60
+R3.17 Génie génétique,TP,40
+R3.18 Bioinformatique,TP,100
+SAE 3.1,Note SAE,100
+SAE 3.2,Note SAE,100
+SAE 3.3,TP1 Parasitologie,10,"13,4","19,75",0,"16,11",2026-10-05
+SAE 3.3,TP2 Parasitologie,10,"13,25","18,95","9,2","14,53",2026-10-05
+SAE 3.3,Interrogations écrites Parasitologie,20,"11,25","19,5","7,75","13,86",2026-10-05
+SAE 3.3,TP Qualité,20
+SAE 3.3,Préparation TP Hémoculture,8
+SAE 3.3,TP Hémoculture,16
+SAE 3.3,Livrable TP Hémoculture,16
+SAE 3.3,Moyenne provisoire,,,"17,4","6,18","14,55"
